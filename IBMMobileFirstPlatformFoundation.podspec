@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.summary      = "Use the SDK to develop applications for the Apple iPhone/iPad or Apple Watch that use the IBM MobileFirst platform for iOS/watchOS services."
   s.description  = "The IBM MobileFirst platform for iOS SDK integrates with \n                       the IBM MobileFirst platform Cloud Services. The SDK has a modular design, \n                       so you can add add services that are required by your \n                       application as needed.   \n"
   s.homepage   = "https://mobilefirstplatform.ibmcloud.com/licenses/ipla"
-  s.source   = {:git =>'https:/github.com///.git'}
+  s.source   = {:git =>'https:/github.com//imf-client-sdks-inhouse/.git'}
 
 
   s.platforms = {
