@@ -160,7 +160,7 @@ extern NSMutableDictionary *piggyBackData;
  *
  * @param challengeHandler The challenge handler to register.
  */
--(void) registerChallengeHandler: (BaseChallengeHandler *) challengeHandler;
+-(void) registerChallengeHandler: (BaseChallengeHandler *) challengeHandler NS_SWIFT_NAME(registerChallengeHandler(_:));
 
 /**
  * You use this method to add a global header, which is sent on each request.
