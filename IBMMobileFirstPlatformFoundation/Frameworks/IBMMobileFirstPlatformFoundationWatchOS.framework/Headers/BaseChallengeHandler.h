@@ -42,7 +42,7 @@
 /**
  * Initializes a challenge handler with an arbitrary name.
  *
- * @param A unique name for the challenge handler.<br />
+ * @param name A unique name for the challenge handler.<br />
  *        If the challenge comes from a security check, the challenge-handler name must be the name of the security check.
  */
 -(id)initWithName: (NSString *)name;

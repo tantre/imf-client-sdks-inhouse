@@ -120,7 +120,7 @@ extern NSMutableDictionary *piggyBackData;
  *  An object that conforms to the <code>NSURLSessionDataDelegate</code> or <code>NSURLSessionTaskDelegate</code> protocol.
  *
  */
--(void) sendUrlRequest:(NSURLRequest *)request delegate:(id)delegate;
+-(void) sendUrlRequest:(NSURLRequest *)request delegate:(id)delegate NS_SWIFT_NAME(sendUrlRequest(_:));
 
 /**
  *  This method uses <code>NSURLConnection</code> to execute the provided <code>NSURLRequest</code>.
@@ -133,7 +133,8 @@ extern NSMutableDictionary *piggyBackData;
  *  An callback queue of type dispatch_queue_t
  *
  */
--(void) sendUrlRequest:(NSURLRequest *)request delegate:(id)delegate responseQueue:(dispatch_queue_t)responseQueue;
+-(void) sendUrlRequest:(NSURLRequest *)request delegate:(id)delegate responseQueue:(dispatch_queue_t)responseQueue NS_SWIFT_NAME(sendUrlRequest(_:));
+;
 
 
 
