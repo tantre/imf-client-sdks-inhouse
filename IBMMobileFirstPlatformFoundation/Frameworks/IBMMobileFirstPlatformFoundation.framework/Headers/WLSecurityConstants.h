@@ -27,6 +27,8 @@ extern NSString *const KEY_VERSION;
 extern NSString *const KEY_SRC;
 extern NSString *const KEY_BASE64;
 
+extern NSString *const DEFAULT_SCOPE;
+
 extern NSString *const SRC_OBJECTIVE_C;
 
 extern NSString *const ENCRYPT_ERROR_FORMAT_MSG;
